@@ -1,21 +1,19 @@
 import React from 'react'
 
 import Breadcrumbs from '../components/breadcrumbs'
-import Blog from '../components/blog'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
 import '../assets/less/page.less'
 
-const IndexPage = () => (
+const GalleryPage = () => (
   <Layout>
-    <SEO title='Blog' />
+    <SEO title='Gallery' />
     <Breadcrumbs crumbs={[
-      { label: 'Blog', url: '/', active: true },
-      { label: 'Archive', url: '/archive' }
+      { label: 'Doodle', url: '/doodle' },
+      { label: 'Gallery', url: '/gallery', active: true }
     ]} />
-    <Blog />
   </Layout>
 )
 
-export default IndexPage
+export default GalleryPage

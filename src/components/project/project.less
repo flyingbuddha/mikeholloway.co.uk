@@ -1,0 +1,20 @@
+@import '../../assets/less/common.less';
+@import '../../assets/less/variables.less';
+
+.Project {
+  margin-bottom: 40/@px;
+
+  &__Title {
+    &:extend(.Link);
+    display: inline-block;
+    margin-bottom: 10/@px;
+  }
+
+  &__Media {
+    margin-bottom: 20/@px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

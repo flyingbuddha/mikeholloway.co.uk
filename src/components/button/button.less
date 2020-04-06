@@ -1,0 +1,31 @@
+@import '../../assets/less/fonts.less';
+@import '../../assets/less/variables.less';
+
+.Button {
+  background-color: rgb(255, 255, 255);
+  border-radius: 4/@px;
+  border: 1/@px solid rgb(203, 219, 228);
+  color: rgb(33, 69, 89);
+  cursor: pointer;
+  font-family: 'Secular One', sans-serif;
+  font-size: 12/@px;
+  line-height: normal;
+  padding: 6/@px 10/@px;
+  outline: none;
+
+  &-Fill {
+    border: none;
+    background-color: rgb(203, 219, 228);
+  }
+
+  &-Menu {
+    background-color: transparent;
+    border-radius: 0;
+    border: 4/@px solid rgb(255, 199, 0);
+    color: rgb(255, 199, 0);
+    font-size: 24/@px;
+    margin-bottom: 30/@px;
+    padding: 12/@px;
+    width: 100%;
+  }
+}

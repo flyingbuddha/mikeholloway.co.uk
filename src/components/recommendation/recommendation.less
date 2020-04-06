@@ -1,0 +1,16 @@
+@import '../../assets/less/common.less';
+@import '../../assets/less/variables.less';
+
+.Recommendation {
+  margin-bottom: 40/@px;
+
+  &__Title {
+    &:extend(.Link);
+    display: inline-block;
+    margin-bottom: 10/@px;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

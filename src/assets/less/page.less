@@ -1,0 +1,41 @@
+@import './fonts.less';
+@import './variables.less';
+
+* {
+  box-sizing: border-box;
+}
+
+html, 
+body, 
+#___gatsby,
+div[tabindex] {
+  height: 100%;
+}
+
+html {
+  
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 3.9vmin;
+  }
+}
+
+body {
+  background: linear-gradient(180deg, rgb(17, 77, 111) 0%, rgb(80, 162, 207) 100%);
+  color: rgb(68, 68, 68);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18/@px;
+  line-height: 22/@px;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Secular One', sans-serif;
+}

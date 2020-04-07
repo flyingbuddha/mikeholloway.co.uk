@@ -32,7 +32,7 @@ const ProjectsPage = () => (
     />
     <Project
       description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`}
-      media={<Gallery imageDir={'projects/shots-fired'} />}
+      media={<Gallery imageDir={'shots-fired'} />}
       title={`Shots Fired`}
       url={'https://www.foo.com' }
     />

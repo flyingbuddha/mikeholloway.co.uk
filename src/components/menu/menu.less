@@ -1,12 +1,17 @@
+@import '../../assets/less/common.less';
 @import '../../assets/less/variables.less';
 
 .Menu {
   background: linear-gradient(0deg, rgb(80, 162, 207) 0%, transparent 100%) 100% 0;
-  height: auto;
-  padding: 72/@px 55/@px 0 55/@px;
-  transform-origin: bottom;
-  transform: scaleY(1);
-  transition: transform 0.26s ease;
+  
+  &__Main {
+    &:extend(.Desktop);
+    height: auto;
+    padding: 60/@px 30/@px 0 30/@px;
+    transform-origin: bottom;
+    transform: scaleY(1);
+    transition: transform 0.26s ease;
+  }
 
   .Button {
     opacity: 1;
@@ -22,6 +27,18 @@
     .Button {
       opacity: 0;
       transition: none;
+    }
+  }
+}
+
+@media (min-width: @midRes) {
+  .Menu {
+    &__Main {
+      display: flex;
+      .Button {
+        margin-right: 10/@px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+      }
     }
   }
 }

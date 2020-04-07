@@ -9,22 +9,24 @@ import './menu.less'
 
 const Menu = ({ isMenuOpen }) => (
   <div className={classNames('Menu', {'Menu-Closed': !isMenuOpen})}>
-    <Button
-      className='Button-Menu'
-      onClick={() => navigate('/')}
-    >Blog</Button>
-    <Button
-      className='Button-Menu'
-      onClick={() => navigate('/recommendations')}
-    >Recommendations</Button>
-    <Button
-      className='Button-Menu'
-      onClick={() => navigate('/projects')}
-    >Projects</Button>
-    <Button
-      className='Button-Menu'
-      onClick={() => navigate('/doodle')}
-    >Doodle</Button>
+    <div className='Menu__Main'>
+      <Button
+        className='Button-Menu'
+        onClick={() => navigate('/')}
+      >Blog</Button>
+      <Button
+        className='Button-Menu'
+        onClick={() => navigate('/recommendations')}
+      >Recommendations</Button>
+      <Button
+        className='Button-Menu'
+        onClick={() => navigate('/projects')}
+      >Projects</Button>
+      <Button
+        className='Button-Menu'
+        onClick={() => navigate('/doodle')}
+      >Doodle</Button>
+    </div>
   </div>
 )
 

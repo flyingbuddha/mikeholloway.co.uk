@@ -1,10 +1,13 @@
+@import '../../assets/less/common.less';
 @import '../../assets/less/variables.less';
 
 .Footer {
+  &:extend(.Desktop);
   padding: @gutter;
   padding-bottom: 0;
   display: flex;
   justify-content: space-between;
+  width: 100%;
 
   &__CV {
     align-self: center;

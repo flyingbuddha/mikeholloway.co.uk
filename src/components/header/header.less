@@ -1,10 +1,14 @@
+@import '../../assets/less/common.less';
 @import '../../assets/less/variables.less';
 
 .Header {
-  font-family: 'Secular One', sans-serif;
-  background: rgb(80, 162, 207) url(./clouds.svg) repeat-x 1/@px 100%;
-  padding: 34/@px 30/@px 50/@px 30/@px;
-  position: relative;
+  background: rgb(80, 162, 207) url(./clouds.svg) repeat-x 0 99%;
+
+  &__Main {
+    &:extend(.Desktop);
+    padding: 34/@px 30/@px 50/@px 30/@px;
+    position: relative;
+  }
 
   a {
     text-decoration: none;
@@ -25,4 +29,5 @@
   font-weight: 300;
   line-height: 52/@px;
   color: rgb(255, 255, 255);
+  text-shadow: 1/@px 1/@px 2/@px rgb(52, 123, 161);
 }

@@ -24,7 +24,7 @@ export const query = graphql`
         }
       }
     }
-  }  
+  }
 `
 
 const Gallery = ({ imageDir }) => {

@@ -12,9 +12,11 @@ const Header = ({
   siteTitle
 }) => (
   <header className='Header'>
-    <Link to='/'>{siteTitle}</Link>
-    <h1 className='Hero'>A site dedicated to thoughts and ideas.</h1>
-    <MenuButton isMenuOpen={isMenuOpen} onClick={onToggleMenu} />
+    <div className='Header__Main'>
+      <Link to='/'>{siteTitle}</Link>
+      <h1 className='Hero'>A site dedicated to thoughts and ideas.</h1>
+      <MenuButton isMenuOpen={isMenuOpen} onClick={onToggleMenu} />
+    </div>
   </header>
 )
 

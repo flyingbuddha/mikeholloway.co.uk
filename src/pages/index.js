@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { navigate } from 'gatsby'
+import { graphql, navigate } from 'gatsby'
 
 import '../assets/less/page.less'
 

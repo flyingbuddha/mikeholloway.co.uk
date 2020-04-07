@@ -16,7 +16,7 @@ export const projectImage = graphql`
 
 export const query = graphql`
   query {
-    allFile(filter: {dir: {regex: "assets/images/"}}) {
+    allFile(filter: {dir: {regex: "/images/projects/"}}) {
       edges {
         node {
           ...projectImage,

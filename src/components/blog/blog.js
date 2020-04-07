@@ -1,24 +1,24 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 import './blog.less'
 
-const Blog = () => (
+const Blog = ({
+  content,
+  published,
+  title
+}) => (
   <article className='Blog'>
-    <h2 className='Blog__Title'>If I built a system to sell X, this is how I'd do it.</h2>
-    <h3 className='Blog__Published'>Tue 31 March, 2020</h3>
-    <div className='Blog__Content'>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Pellentesque habitant morbi tristique senectus et netus et.
-      </p>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do 
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        Pellentesque habitant morbi tristique senectus et netus et.
-      </p>
-    </div>
+    <h2 className='Blog__Title'>{title}</h2>
+    <h3 className='Blog__Published'>{published}</h3>
+    <div className='Blog__Content' dangerouslySetInnerHTML={{__html: content}} />
   </article>
 )
+
+Blog.propTypes = {
+  content: PropTypes.node,
+  published: PropTypes.string,
+  title: PropTypes.string
+}
 
 export default Blog

@@ -12,7 +12,7 @@ const Menu = ({ isMenuOpen }) => (
     <div className='Menu__Main'>
       <Button
         className='Button-Menu'
-        onClick={() => navigate('/')}
+        onClick={() => navigate('/blog')}
       >Blog</Button>
       <Button
         className='Button-Menu'

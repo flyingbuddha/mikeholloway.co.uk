@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Mike Holloway`,
     description: `A site dedicated to thoughts and ideas.`,
-    author: `@artdevgame`,
+    author: `@artdevgame`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -10,55 +10,47 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `uploads`,
         path: `${__dirname}/static/images/uploads`,
+        name: `uploads`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `pages`,
         path: `${__dirname}/src/pages`,
+        name: `pages`
       }
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/static/images`,
+        path: `${__dirname}/src/assets/images`,
+        name: `images`
       },
     },
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
-      resolve: 'gatsby-transformer-remark',
+      resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-relative-images',
-            options: {
-              name: 'uploads',
-            },
+            resolve: `gatsby-remark-relative-images`
           },
           {
-            resolve: 'gatsby-remark-images',
+            resolve: `gatsby-remark-images`,
             options: {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 740,
+              maxWidth: 340,
             },
-          },
-          {
-            resolve: 'gatsby-remark-copy-linked-files',
-            options: {
-              destinationDir: 'static',
-            },
-          },
+          }
         ],
       },
     },
     'gatsby-plugin-netlify-cms',
+    `gatsby-plugin-netlify`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

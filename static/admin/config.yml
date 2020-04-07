@@ -5,7 +5,7 @@ backend:
 publish_mode: editorial_workflow
 
 media_folder: content/uploads
-public_folder: uploads
+public_folder: ../../../content/uploads
 
 collections:
   - name: "blog"

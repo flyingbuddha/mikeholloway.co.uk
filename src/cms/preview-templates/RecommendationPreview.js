@@ -6,14 +6,15 @@ import Content from '../../components/content'
 
 import '../../assets/less/preview.less'
 
-const RecommendationPreview = ({ entry, widgetFor }) => {
+const RecommendationPreview = ({ entry, widgetFor, widgetsFor }) => {
 
   const reviews = entry.getIn(['data', 'reviews'])
 
+  console.log(widgetsFor('reviews'))
+  console.log(widgetsFor(['data', 'reviews']))
+
   return reviews.map(node => {
-    // console.log(widgetFor('body', node))
-    console.log(node.getIn('html'))
-    console.log(node.get('body'))
+    // console.log(node.get('body'))
 
     return (
       <Recommendation 

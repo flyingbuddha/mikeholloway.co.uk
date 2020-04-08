@@ -5,4 +5,4 @@ import BlogPreview from './preview-templates/BlogPreview'
 import RecommendationReview from './preview-templates/RecommendationPreview'
 
 CMS.registerPreviewTemplate('blog', BlogPreview)
-CMS.registerPreviewTemplate('recommendation', RecommendationReview)
+CMS.registerPreviewTemplate('recommendations', RecommendationReview)

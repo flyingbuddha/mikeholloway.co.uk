@@ -6,14 +6,18 @@ import Content from '../../components/content'
 
 import '../../assets/less/preview.less'
 
-const BlogPreview = ({ entry, widgetFor }) => (
-  <Blog 
-    published={entry.getIn(['data', 'date'])}
-    title={entry.getIn(['data', 'title'])}
-  >
-    <Content className='Blog__Content' content={widgetFor('body')} />
-  </Blog>
-)
+const BlogPreview = ({ entry, widgetFor }) => {
+  console.log(widgetFor)
+  console.log(widgetFor('body'))
+  return (
+    <Blog 
+      published={entry.getIn(['data', 'date'])}
+      title={entry.getIn(['data', 'title'])}
+    >
+      <Content className='Blog__Content' content={widgetFor('body')} />
+    </Blog>
+  )
+}
 
 BlogPreview.propTypes = {
   entry: PropTypes.shape({

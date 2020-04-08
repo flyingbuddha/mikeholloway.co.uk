@@ -1,5 +1,5 @@
 ---
-templateKey: blog-post
+templateKey: blog
 title: A test blog post
 date: 2020-04-07T10:17:30.544Z
 ---

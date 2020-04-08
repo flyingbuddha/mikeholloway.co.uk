@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 
 import '../assets/less/page.less'
 
-const BlogPostTemplate = ({ data }) => {
+const BlogTemplate = ({ data }) => {
   const { markdownRemark: post } = data
   const { title, date } = post.frontmatter
   const { html } = post
@@ -28,7 +28,7 @@ const BlogPostTemplate = ({ data }) => {
   )
 }
 
-export default BlogPostTemplate
+export default BlogTemplate
 
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {

@@ -8,23 +8,30 @@ import '../../assets/less/preview.less'
 
 const RecommendationPreview = ({ entry, widgetFor, widgetsFor }) => {
 
-  const reviews = entry.getIn(['data', 'reviews'])
+  // const reviews = entry.getIn(['data', 'reviews'])
+  const reviews = widgetsFor('reviews')
 
-  console.log(widgetsFor('reviews'))
-  console.log(widgetsFor(['data', 'reviews']))
-
-  return reviews.map(node => {
-    // console.log(node.get('body'))
-
-    return (
-      <Recommendation 
-        title={node.getIn(['title'])}
-        url={node.getIn(['url'])}
-      >
-        {/* <Content className='Recommendation__Review' content={widgetFor('body')} /> */}
-      </Recommendation>
-    )
+  return reviews.map((review, index) => {
+    console.log(review.getIn(['data', 'title']))
+    console.log(review.getIn(['data', 'url']))
+    console.log(review.getIn(['widgets', 'body']))
+    return <p />
   })
+
+
+  // return reviews.map(node => {
+  //   // console.log(node.get('body'))
+
+  //   return (
+  //     <Recommendation 
+  //       title={node.getIn(['title'])}
+  //       url={node.getIn(['url'])}
+  //     >
+  //       {/* <Content className='Recommendation__Review' content={widgetFor('body')} /> */}
+  //     </Recommendation>
+  //   )
+  // })
+
 }
 
 RecommendationPreview.propTypes = {

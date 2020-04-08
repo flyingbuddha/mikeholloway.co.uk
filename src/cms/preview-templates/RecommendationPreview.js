@@ -10,18 +10,21 @@ const RecommendationPreview = ({ entry, widgetFor }) => {
 
   const reviews = entry.getIn(['data', 'reviews'])
 
-  reviews.map(node => {
-    console.log(node)
-    console.log(node.getIn(['title']))
+  return reviews.map(node => {
+    console.log(widgetFor('body', node))
+
+    return (
+      <Recommendation 
+        title={node.getIn(['title'])}
+        url={node.getIn(['url'])}
+      >
+        {/* <Content className='Recommendation__Review' content={widgetFor('body')} /> */}
+      </Recommendation>
+    )
   })
 
   return (
-    <Recommendation 
-      title={entry.getIn(['data', 'title'])}
-      url={entry.getIn(['data', 'url'])}
-    >
-      {/* <Content className='Recommendation__Review' content={widgetFor('body')} /> */}
-    </Recommendation>
+    
   )
 }
 

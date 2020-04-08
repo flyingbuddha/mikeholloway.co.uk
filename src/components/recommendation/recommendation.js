@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import './recommendation.less'
 
 const Recommendation = ({
-  review,
+  children,
   title,
   url
 }) => (
@@ -15,12 +15,12 @@ const Recommendation = ({
       target='_blank'
       rel='noopener noreferrer'
     >{title}</a>
-    <div className='Recommendation__Review'>{review}</div>
+    {children}
   </article>
 )
 
 Recommendation.propTypes = {
-  review: PropTypes.string,
+  children: PropTypes.node,
   title: PropTypes.string,
   url: PropTypes.string
 }

@@ -35,7 +35,7 @@ export default BlogArchivePage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(sort: {fields:frontmatter___date, order:DESC}) {
+    allMarkdownRemark(sort: {fields:frontmatter___date, order:DESC}, filter: {fields: {slug: {regex: "/blog/"}}}) {
       edges {
         node {
           frontmatter {

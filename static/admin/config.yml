@@ -23,8 +23,6 @@ collections:
     - file: "src/pages/recommendations/index.md"
       label: "Recommendations"
       name: "recommendations"
-      slug: "{{slug}}"
-      create: true
       fields:
         - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recommendation"}
         - label: Reviews

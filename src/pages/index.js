@@ -15,7 +15,7 @@ export default IndexPage
 
 export const pageQuery = graphql`
   query {
-    allMarkdownRemark(limit: 1, sort: {fields:frontmatter___date, order:DESC}) {
+    allMarkdownRemark(limit: 1, sort: {fields:frontmatter___date, order:DESC}, filter: {fields: {slug: {regex: "/blog/"}}}) {
       edges {
         node {
           frontmatter {

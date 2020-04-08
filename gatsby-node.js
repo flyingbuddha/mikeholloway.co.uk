@@ -1,7 +1,11 @@
 const _ = require('lodash')
 const path = require('path')
+const remark = require('remark')
+const remarkHTML = require('remark-html')
 const { createFilePath } = require('gatsby-source-filesystem')
 const { fmImagesToRelative } = require('gatsby-remark-relative-images')
+
+const toHTML = value => remark().use(remarkHTML).processSync(value).toString()
 
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
@@ -33,6 +37,11 @@ exports.createPages = async ({ actions, graphql }) => {
 
   posts.forEach(edge => {
     const id = edge.node.id
+
+    if (!edge.node.frontmatter.templateKey) {
+      return
+    }
+
     createPage({
       path: edge.node.fields.slug,
       component: path.resolve(
@@ -52,10 +61,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
   if (node.internal.type === `MarkdownRemark`) {
     const value = createFilePath({ node, getNode })
-    createNodeField({
-      name: `slug`,
-      node,
-      value,
-    })
+    createNodeField({ name: `slug`, node, value })
+
+    if (node.fields.slug === '/recommendations/') {
+      node.frontmatter.reviews = node.frontmatter.reviews.map(review => ({
+        ...review,
+        html: toHTML(review.body)
+      }))
+    }
   }
 }

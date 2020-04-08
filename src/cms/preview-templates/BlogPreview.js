@@ -17,8 +17,7 @@ const BlogPreview = ({ entry, widgetFor }) => {
       published={entry.getIn(['data', 'datetime'])}
       title={entry.getIn(['data', 'title'])}
     >
-      {/* <Content className='Blog__Content' content={widgetFor('body')} /> */}
-      <p>Preview</p>
+      <Content className='Blog__Content' content={widgetFor('body')} />
     </Blog>
   )
 }

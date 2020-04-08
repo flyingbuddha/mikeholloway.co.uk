@@ -9,12 +9,16 @@ import '../../assets/less/preview.less'
 const BlogPreview = ({ entry, widgetFor }) => {
   console.log(widgetFor)
   console.log(widgetFor('body'))
+  // ddd Do MMMM, YYYY
+  console.log(entry.getIn(['data', 'date']))
+  console.log(entry.getIn(['data', 'date']).format('ddd Do MMMM, YYYY'))
+
   return (
     <Blog 
       published={entry.getIn(['data', 'date'])}
       title={entry.getIn(['data', 'title'])}
     >
-      <Content className='Blog__Content' content={widgetFor('body')} />
+      <Content className='Blog__Content' content={widgetFor('body').content} />
     </Blog>
   )
 }

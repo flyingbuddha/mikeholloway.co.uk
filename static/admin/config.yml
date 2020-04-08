@@ -14,5 +14,5 @@ collections:
     fields:
       - {label: "Template Key", name: "templateKey", widget: "hidden", default: "blog"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "datetime", widget: "datetime"}
       - {label: "Body", name: "body", widget: "markdown"}

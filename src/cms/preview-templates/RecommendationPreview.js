@@ -22,10 +22,6 @@ const RecommendationPreview = ({ entry, widgetFor }) => {
       </Recommendation>
     )
   })
-
-  return (
-    
-  )
 }
 
 RecommendationPreview.propTypes = {

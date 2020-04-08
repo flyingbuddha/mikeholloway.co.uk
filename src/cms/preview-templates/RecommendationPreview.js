@@ -12,7 +12,7 @@ const RecommendationPreview = ({ entry, widgetFor }) => {
       title={entry.getIn(['data', 'title'])}
       url={entry.getIn(['data', 'url'])}
     >
-      <Content className='Recommendation__Review' content={widgetFor('data', 'body')} />
+      <Content className='Recommendation__Review' content={widgetFor(['data', 'body'])} />
     </Recommendation>
   )
 }

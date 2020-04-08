@@ -12,6 +12,8 @@ const RecommendationPreview = ({ entry, widgetFor }) => {
 
   return reviews.map(node => {
     // console.log(widgetFor('body', node))
+    console.log(node.getIn('html'))
+    console.log(node.get('body'))
 
     return (
       <Recommendation 

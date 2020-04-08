@@ -7,8 +7,11 @@ import Content from '../../components/content'
 import '../../assets/less/preview.less'
 
 const RecommendationPreview = ({ entry, widgetFor }) => {
-  console.log(entry.getIn(['data', 'body']))
-  // console.log(widgetFor('body'))
+  console.log(entry.getIn(['data', 'reviews', 'title']))
+  console.log(entry.getIn(['data', 'reviews', 'url']))
+  console.log(entry.getIn(['data', 'reviews', 'body']))
+  console.log(widgetFor(['reviews','body']))
+  console.log(widgetFor(['data', 'reviews','body']))
   return (
     <Recommendation 
       title={entry.getIn(['data', 'title'])}

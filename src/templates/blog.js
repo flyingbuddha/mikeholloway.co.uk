@@ -33,7 +33,7 @@ const BlogTemplate = ({ data }) => {
 export default BlogTemplate
 
 export const pageQuery = graphql`
-  query BlogPostByID($id: String!) {
+  query BlogByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
       id
       html

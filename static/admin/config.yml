@@ -16,3 +16,21 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "datetime", widget: "datetime", format: "ddd Do MMMM, YYYY"}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "pages"
+    label: "Pages"
+    files:
+    - file: "src/pages/recommendations/index.md"
+      label: "Recommendations"
+      name: "recommendations"
+      slug: "{{slug}}"
+      create: true
+      fields:
+        - {label: "Template Key", name: "templateKey", widget: "hidden", default: "recommendation"}
+        - label: Reviews
+          name: reviews
+          widget: object
+          fields:
+            - {label: "Title", name: "title", widget: "string"}
+            - {label: "URL", name: "url", widget: "string"}
+            - {label: "Review", name: "body", widget: "markdown"}

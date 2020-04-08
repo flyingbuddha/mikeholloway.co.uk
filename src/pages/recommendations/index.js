@@ -1,11 +1,11 @@
 import React from 'react'
 
-import Breadcrumbs from '../components/breadcrumbs'
-import Layout from '../components/layout'
-import Recommendation from '../components/recommendation'
-import SEO from '../components/seo'
+import Breadcrumbs from '../../components/breadcrumbs'
+import Layout from '../../components/layout'
+import Recommendation from '../../components/recommendation'
+import SEO from '../../components/seo'
 
-import '../assets/less/page.less'
+import '../../assets/less/page.less'
 
 const RecommendationsPage = () => (
   <Layout>

@@ -7,11 +7,6 @@ import Content from '../../components/content'
 import '../../assets/less/preview.less'
 
 const BlogPreview = ({ entry, widgetFor }) => {
-  console.log(widgetFor('body'))
-
-  // ddd Do MMMM, YYYY
-  console.log(entry.getIn(['data', 'datetime']))
-
   return (
     <Blog 
       published={entry.getIn(['data', 'datetime'])}

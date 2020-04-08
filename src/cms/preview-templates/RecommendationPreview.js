@@ -8,7 +8,7 @@ import '../../assets/less/preview.less'
 
 const RecommendationPreview = ({ entry, widgetFor }) => {
   console.log(entry.getIn(['data', 'body']))
-  console.log(widgetFor('body'))
+  // console.log(widgetFor('body'))
   return (
     <Recommendation 
       title={entry.getIn(['data', 'title'])}

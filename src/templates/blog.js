@@ -3,6 +3,7 @@ import { graphql } from 'gatsby'
 
 import Breadcrumbs from '../components/breadcrumbs'
 import Blog from '../components/blog'
+import { HTMLContent } from '../components/content'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
@@ -20,10 +21,11 @@ const BlogTemplate = ({ data }) => {
         { label: 'Blog: All', url: '/blog' }
       ]} />
       <Blog 
-        content={html}
         published={date}
         title={title}
-      />
+      >
+        <HTMLContent className='Blog__Content' content={html} />
+      </Blog>
     </Layout>
   )
 }

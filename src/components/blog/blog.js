@@ -4,19 +4,19 @@ import PropTypes from 'prop-types'
 import './blog.less'
 
 const Blog = ({
-  content,
+  children,
   published,
   title
 }) => (
   <article className='Blog'>
     <h2 className='Blog__Title'>{title}</h2>
     <h3 className='Blog__Published'>{published}</h3>
-    <div className='Blog__Content' dangerouslySetInnerHTML={{__html: content}} />
+    {children}
   </article>
 )
 
 Blog.propTypes = {
-  content: PropTypes.node,
+  children: PropTypes.node,
   published: PropTypes.string,
   title: PropTypes.string
 }

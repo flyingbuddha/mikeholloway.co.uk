@@ -9,7 +9,7 @@ import '../../assets/less/preview.less'
 const RecommendationPreview = ({ widgetsFor }) => {
   const reviews = widgetsFor('reviews')
 
-  return reviews.map((review, index) => {
+  return reviews.map(review => {
     return (
       <Recommendation 
         title={review.getIn(['data', 'title'])}

@@ -16,6 +16,12 @@ const ProjectsPage = () => (
     ]} />
     <Project
       description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`}
+      media={<Gallery imageDir={'shots-fired'} />}
+      title={`Shots Fired`}
+      url={'https://www.foo.com' }
+    />
+    <Project
+      description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`}
       title={`2020 - Project 52`}
       media={(
         <iframe
@@ -28,12 +34,6 @@ const ProjectsPage = () => (
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/958569085&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"
         ></iframe>
       )}
-      url={'https://www.foo.com' }
-    />
-    <Project
-      description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`}
-      media={<Gallery imageDir={'shots-fired'} />}
-      title={`Shots Fired`}
       url={'https://www.foo.com' }
     />
   </Layout>

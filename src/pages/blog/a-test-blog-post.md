@@ -53,4 +53,4 @@ My recommended approach for getting as close to "free" as possible is to set up 
 
    Netlify also has other excellent features such as lambda functions, analytics, data collection, authentication and a CMS for managing the content in your site.
 
-Choosing either path above, I would recommend buying a domain name and registering it with the preferred host. The benefit of this is that you will have a credible link that is recognisable to your customers and unique to you, all for a minimal annual cost.
+Either way, I would recommend buying a domain name and registering it with the preferred host. The benefit of this is that you will have a credible link that is recognisable to your customers and unique to you, all for a minimal annual cost.

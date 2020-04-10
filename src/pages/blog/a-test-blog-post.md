@@ -41,3 +41,16 @@ If you have the inclination to develop the website yourself, all of the costs ab
 Website builders such as WordPress or the ones provided by hosting companies usually have a free tier where they provide you with a personalised domain name and just enough space to run a basic site.
 
 One of the major limitations with these sites is when you out grow the initial requirements. You either end up having to pay for a premium plan that costs a lot more or worse, your site would have been constructed in such a way that they can't be ported to another supplier.
+
+My recommended approach for getting as close to "free" as possible is to set up a GitHub account and upload your files to there. You can then choose one of the following paths:
+
+1. GitHub actually has a hosting feature built in called GitHub Pages. It uses a framework called [Jekyll](https://jekyllrb.com/), which is powered by a technology called Ruby. If you follow the instructions on their site, you can have a fully functioning site with zero hosting cost. GitHub will provide you with a **github.io** address or you can choose to use a domain that you have bought elsewhere.
+2. Like the previous point, you use GitHub as your main datastore and use a provider like Netlify to deploy your code. Also like GitHub, Netlify provide you with a personalised **netlify.com** domain name or you're free to bring your own, but what's better (in my opinion) about this approach is that you're not limited to the technology you use. 
+
+   This website uses a framework called Gatsby, which is powered by a technology called JavaScript. It's the most popular technology at the time of writing according to the [Stack Overflow Dev Survey](https://insights.stackoverflow.com/survey/2019#technology) with 67.8% respondants preferring it vs. 8.4% for Ruby, in example. 
+
+   This may not be an immediately important factor for something like a blog, but if you're building a website for a business you should be considering lifetime support for the product and how easy it is to get new developers working on it.
+
+   Netlify also has other excellent features such as lambda functions, analytics, data collection, authentication and a CMS for managing the content in your site.
+
+Choosing either path above, I would recommend buying a domain name and registering it with the preferred host. The benefit of this is that you will have a credible link that is recognisable to your customers and unique to you, all for a minimal annual cost.

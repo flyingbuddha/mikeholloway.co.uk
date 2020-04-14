@@ -22,7 +22,7 @@ reviews:
     url: 'https://amzn.to/2XvozdH'
     body: >-
       A sentence very early in Dan's powerful, inspirational and motivational
-      book book got me hooked:
+      book got me hooked:
 
 
       > If you went back to the late 1900s you would find people working on the

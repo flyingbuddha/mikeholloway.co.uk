@@ -6,7 +6,7 @@ datetime: 'Wed 8th April, 2020'
 ---
 At the start of every year I set myself a few goals to aim for in the coming months. In 2020, one of those goals was to build a website.
 
-![A screenshot of compiled code](../../../content/uploads/markus-spiske-cvbbo4pzwpg-unsplash.jpg)
+![A keyboard, mouse, pad of paper and pen](../../../content/uploads/amy-hirschi-szrj3wjzomg-unsplash.jpg)
 
 #### What is the reason for having a website?
 

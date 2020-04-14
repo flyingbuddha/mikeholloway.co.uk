@@ -32,7 +32,7 @@ reviews:
       seem so daunting if you have bills to pay and other responsibilities that
       prevent you going all in. This book is great for giving you ideas on how
       to build side projects when you have a little downtime and how to monetize
-      your ideas.
+      them.
 
 
       If you don't have ideas of your own, still read this book as the author

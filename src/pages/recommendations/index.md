@@ -38,4 +38,20 @@ reviews:
       There's so much useful information in this book and largely written
       anecdotally, which makes it more relatable than other books on this
       subject.
+  - url: 'https://amzn.to/2V9qzH0'
+    title: >-
+      You Are a Badass: How to Stop Doubting Your Greatness and Start Living an
+      Awesome Life
+    body: >-
+      **This book changed my life.**
+
+
+      One day I'll write a full review on my blog as it was so transformational.
+      Jen's tone is really accessible, a little crass at times but the message
+      she delivers is like a fact-train hitting you square in the face.
+
+
+      You should read this book if you're feeling in a rut or a little stagnant
+      in life. I challenge you to read it and not feel like you've just
+      discovered you had super powers all along.
 ---

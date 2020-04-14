@@ -54,4 +54,20 @@ reviews:
       There's so much useful information in this book and largely written
       anecdotally, which makes it more relatable than other books on this
       subject.
+  - title: 'Contagious: How to Build Word of Mouth in the Digital Age'
+    url: 'https://amzn.to/34xf0fM'
+    body: >-
+      You've built a product or service but you're not sure how to market it
+      effectively. This book can offer you years of experience on how to tap
+      into triggers that motivate buyers. 
+
+
+      One of my favourite examples in this book is how Kit Kat paired their
+      product with coffee in advertising during 2007 to revive sales. The
+      pairing created a subliminal thought in people so that whenever they were
+      around coffee, they were thinking of Kit Kat. 
+
+
+      There's plenty of similar examples so it's easy to apply to your own
+      offering.
 ---

@@ -15,13 +15,20 @@ const ProjectsPage = () => (
       { label: 'Projects', url: '/projects', active: true }
     ]} />
     <Project
-      description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`}
       media={<Gallery imageDir={'shots-fired'} />}
       title={`Shots Fired`}
       url={'https://www.foo.com' }
-    />
+    >
+      <p>
+        Shots Fired is an <a href='https://www.overwolf.com/'>Overwolf app</a> that 
+        helps to automate scene switching and source item visibility within OBS.
+      </p>
+      <p>
+        It was orignially developed as part of the <a href='https://play.overwolf.com/pubg-dev-challenge/'>PUBG Developers Challenge</a> and 
+        later expanded to support additional games.
+      </p>
+    </Project>
     <Project
-      description={`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`}
       title={`2020 - Project 52`}
       media={(
         <iframe
@@ -34,8 +41,28 @@ const ProjectsPage = () => (
           src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/958569085&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=false"
         ></iframe>
       )}
-      url={'https://www.foo.com' }
-    />
+      url={'https://soundcloud.com/mr-holloway/sets/2020-project-52' }
+    >
+      <p>
+        The aim of this project is to deliver a piece of music or sound loop
+        every week for the entire year of 2020.
+      </p>
+      <p>
+        I've played with music production in the past, quite literally with
+        Mario Paint on the Super Nintendo and later Music 2000 on the PC, but
+        not a lot since then.
+      </p>
+      <p>
+        I've got a basic understanding of music theory from YouTube but that's
+        as far as it goes. I'm inspired mostly by electronic music and trance
+        from the late 90s.
+      </p>
+      <p>
+        This year I'd like to improve my technical ability so I can at least
+        think of myself somewhere between a novice and intermediate level. To
+        do this, I'll be using Ableton Live and Captain Plugins.
+      </p>
+    </Project>
   </Layout>
 )
 

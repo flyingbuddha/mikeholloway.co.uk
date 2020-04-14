@@ -22,10 +22,10 @@ const Menu = ({ isMenuOpen }) => (
         className='Button-Menu'
         onClick={() => navigate('/projects')}
       >Projects</Button>
-      <Button
+      {/* <Button
         className='Button-Menu'
         onClick={() => navigate('/doodle')}
-      >Doodle</Button>
+      >Doodle</Button> */}
     </div>
   </div>
 )

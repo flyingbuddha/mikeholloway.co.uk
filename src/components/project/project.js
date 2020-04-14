@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import './project.less'
 
 const Project = ({
-  description,
+  children,
   media,
   title,
   url
@@ -17,12 +17,12 @@ const Project = ({
       rel='noopener noreferrer'
     >{title}</a>
     {media && <div className='Project__Media'>{media}</div>}
-    <div className='Project__Description'>{description}</div>
+    <div className='Project__Description'>{children}</div>
   </article>
 )
 
 Project.propTypes = {
-  description: PropTypes.string,
+  children: PropTypes.node,
   media: PropTypes.node,
   title: PropTypes.string,
   url: PropTypes.string

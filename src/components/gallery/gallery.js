@@ -37,7 +37,8 @@ const Gallery = ({ imageDir }) => {
     const swiper = new Swiper('.swiper-container', {
       lazy: true,
       loop: true,
-      effect: 'cube',
+      preloadImages: true,
+      // effect: 'cube',
       pagination: {
         el: '.swiper-pagination'
       }

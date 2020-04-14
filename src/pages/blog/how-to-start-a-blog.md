@@ -57,6 +57,6 @@ My recommended approach for getting as close to "free" as possible is to set up 
 
 Either way, I would recommend buying a domain name and registering it with the preferred host. The benefit of this is that you will have a credible link that is recognisable to your customers and unique to you, all for a minimal annual cost.
 
-So with all the essential parts of website taken care of, the only thing left is content. This is the re-start of my blogging journey, what are you going to create?
+So with all the essential parts of the website taken care of, the only thing left is content. This is the re-start of my blogging journey, what are you going to create?
 
 Thanks for reading.

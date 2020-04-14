@@ -39,21 +39,6 @@ reviews:
       gives you some of his to use instead. One of my favourite nuggets of
       information is in the appendix - *How to validate an idea with $10 and a
       Facebook account*.
-  - title: 'Scrum: The Art of Doing Twice the Work in Half the Time'
-    url: 'https://amzn.to/34B33Wv'
-    body: >-
-      Written by a co-creator of Scrum, this book is about project management
-      and team building.
-
-
-      I especially like Jeff's ideas around removing titles from people,
-      practicing working hour limits and how to play planning poker
-      effectively. 
-
-
-      There's so much useful information in this book and largely written
-      anecdotally, which makes it more relatable than other books on this
-      subject.
   - title: 'Contagious: How to Build Word of Mouth in the Digital Age'
     url: 'https://amzn.to/34xf0fM'
     body: >-
@@ -70,4 +55,19 @@ reviews:
 
       There's plenty of similar examples so it's easy to apply to your own
       offering.
+  - title: 'Scrum: The Art of Doing Twice the Work in Half the Time'
+    url: 'https://amzn.to/34B33Wv'
+    body: >-
+      Written by a co-creator of Scrum, this book is about project management
+      and team building.
+
+
+      I especially like Jeff's ideas around removing titles from people,
+      practicing working hour limits and how to play planning poker
+      effectively. 
+
+
+      There's so much useful information in this book and largely written
+      anecdotally, which makes it more relatable than other books on this
+      subject.
 ---

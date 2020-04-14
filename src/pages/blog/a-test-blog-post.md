@@ -6,7 +6,7 @@ datetime: 'Wed 8th April, 2020'
 ---
 At the start of every year I set myself a few goals to aim for in the coming months. In 2020, one of those goals was to build a website.
 
-#### Why?
+#### What is the reason for having a website?
 
 As a software engineer by trade and having almost 20 years experience developing sites professionally for other people, I thought it was probably about time I created an outlet for my own thoughts.
 
@@ -18,7 +18,7 @@ After becoming a little disillusioned with how these platforms (mis)use personal
 
 I needed a platform that I could control, somewhere to speak freely without worrying about side affects.
 
-#### What
+#### How much does a website cost?
 
 There's lots of ways to get a website, they range in price and quality.
 
@@ -54,3 +54,7 @@ My recommended approach for getting as close to "free" as possible is to set up 
    Netlify also has other excellent features such as lambda functions, analytics, data collection, authentication and a CMS for managing the content in your site.
 
 Either way, I would recommend buying a domain name and registering it with the preferred host. The benefit of this is that you will have a credible link that is recognisable to your customers and unique to you, all for a minimal annual cost.
+
+So with all the essential parts of website taken care of, the only thing left is content. This is the re-start of my blogging journey, what are you going to create?
+
+Thanks for reading.

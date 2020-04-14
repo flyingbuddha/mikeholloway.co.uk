@@ -6,6 +6,8 @@ datetime: 'Wed 8th April, 2020'
 ---
 At the start of every year I set myself a few goals to aim for in the coming months. In 2020, one of those goals was to build a website.
 
+![A screenshot of compiled code](../../../content/uploads/markus-spiske-cvbbo4pzwpg-unsplash.jpg)
+
 #### What is the reason for having a website?
 
 As a software engineer by trade and having almost 20 years experience developing sites professionally for other people, I thought it was probably about time I created an outlet for my own thoughts.

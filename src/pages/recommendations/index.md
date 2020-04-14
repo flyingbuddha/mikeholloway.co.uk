@@ -1,5 +1,21 @@
 ---
 reviews:
+  - url: 'https://amzn.to/2V9qzH0'
+    title: >-
+      You Are a Badass: How to Stop Doubting Your Greatness and Start Living an
+      Awesome Life
+    body: >-
+      **This book changed my life.**
+
+
+      One day I'll write a full review on my blog as it was so transformational.
+      Jen's tone is really accessible, a little crass at times but the message
+      she delivers is like a fact-train hitting you square in the face.
+
+
+      You should read this book if you're feeling in a rut or a little stagnant
+      in life. I challenge you to read it and not feel like you've just
+      discovered you had super powers all along.
   - title: 'The Idea in You: How to Find It, Build It, and Change Your Life'
     url: 'https://amzn.to/2yvzrxx'
     body: >-
@@ -23,4 +39,19 @@ reviews:
       gives you some of his to use instead. One of my favourite nuggets of
       information is in the appendix - *How to validate an idea with $10 and a
       Facebook account*.
+  - title: 'Scrum: The Art of Doing Twice the Work in Half the Time'
+    url: 'https://amzn.to/34B33Wv'
+    body: >-
+      Written by a co-creator of Scrum, this book is about project management
+      and team building.
+
+
+      I especially like Jeff's ideas around removing titles from people,
+      practicing working hour limits and how to play planning poker
+      effectively. 
+
+
+      There's so much useful information in this book and largely written
+      anecdotally, which makes it more relatable than other books on this
+      subject.
 ---

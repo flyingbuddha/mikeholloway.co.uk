@@ -16,6 +16,28 @@ reviews:
       You should read this book if you're feeling in a rut or a little stagnant
       in life. I challenge you to read it and not feel like you've just
       discovered you had super powers all along.
+  - title: >-
+      Entrepreneur Revolution: How to Develop your Entrepreneurial Mindset and
+      Start a Business that Works
+    url: 'https://amzn.to/2XvozdH'
+    body: >-
+      A sentence very early in Dan's powerful, inspirational and motivational
+      book book got me hooked:
+
+
+      > If you went back to the late 1900s you would find people working on the
+      new machines - computers - making data. These are 'white-collar' factory
+      workers.
+
+      >
+
+      > ...They sit at their work station and repeat their tasks for hours on
+      end until the day is over. That is just how it is for most people who live
+      in the industrial age.
+
+
+      Have you ever had that questioning inside that asks why you're not using
+      your own skills for your own passions? If so, this book is a must read.
   - title: 'The Idea in You: How to Find It, Build It, and Change Your Life'
     url: 'https://amzn.to/2yvzrxx'
     body: >-
@@ -70,26 +92,4 @@ reviews:
       There's so much useful information in this book and largely written
       anecdotally, which makes it more relatable than other books on this
       subject.
-  - title: >-
-      Entrepreneur Revolution: How to Develop your Entrepreneurial Mindset and
-      Start a Business that Works
-    url: 'https://amzn.to/2XvozdH'
-    body: >-
-      A sentence very early in Dan's powerful, inspirational and motivational
-      book book got me hooked:
-
-
-      > If you went back to the late 1900s you would find people working on the
-      new machines - computers - making data. These are 'white-collar' factory
-      workers.
-
-      >
-
-      > ...They sit at their work station and repeat their tasks for hours on
-      end until the day is over. That is just how it is for most people who live
-      in the industrial age.
-
-
-      Have you ever had that questioning inside that asks why you're not using
-      your own skills for your own passions? If so, this book is a must read.
 ---

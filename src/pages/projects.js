@@ -17,7 +17,7 @@ const ProjectsPage = () => (
     <Project
       media={<Gallery imageDir={'shots-fired'} />}
       title={`Shots Fired`}
-      url={'https://www.foo.com' }
+      url={'https://www.overwolf.com/app/Mike_Holloway-Shots_Fired' }
     >
       <p>
         Shots Fired is an <a href='https://www.overwolf.com/'>Overwolf app</a> that 

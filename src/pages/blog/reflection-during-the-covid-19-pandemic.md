@@ -1,6 +1,7 @@
 ---
 templateKey: blog
 title: Reflection during the COVID-19 pandemic
+date: 2020-05-06T10:51:30.544Z
 datetime: 'Wed 6th May, 2020'
 ---
 Like many of you, I've had a lot more time to pause and think about the present lately. Life has changed quite dramatically in such a short period of time.

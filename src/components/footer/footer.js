@@ -51,7 +51,7 @@ const Footer = ({ siteTitle }) => (
       </li>
     </ul>
     <div className='Footer__CV'>
-      <Button onClick={() => window.location.href = 'https://docs.google.com/document/d/1nvkiuc-vZIf_G7rpHpNLzqJS7SrbGFzZlafDnC8V_dk/export?format=pdf'}>Download Résumé</Button>
+      <Button onClick={() => window.location.href = 'https://drive.google.com/file/d/0B0THrnkn5ZKBXzRiam1BNzJ5S0k/view?usp=sharing'}>Download Résumé</Button>
     </div>
   </footer>
 )

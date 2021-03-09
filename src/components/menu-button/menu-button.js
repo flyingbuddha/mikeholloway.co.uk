@@ -25,7 +25,7 @@ const MenuButton = ({ isMenuOpen, onClick }) => {
       }}
       aria-label="open main navigation"
     >
-      <img src={isMenuOpen ? DownArrowIcon : HamburgerIcon} alt="" />
+      <img src={isMenuOpen ? DownArrowIcon : HamburgerIcon} alt="" width='60%' height='60%' />
     </button>
   )
 }

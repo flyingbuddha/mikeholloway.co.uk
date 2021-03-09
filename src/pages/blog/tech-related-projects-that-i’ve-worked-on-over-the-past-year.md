@@ -1,8 +1,10 @@
 ---
 templateKey: blog
 title: Tech-related projects that I’ve worked on over the past year
-datetime: 'Wed 27th January, 2021'
+date: 2021-01-27T10:51:30.544Z
+datetime: "Wed 27th January, 2021"
 ---
+
 ### Tailwind-UI (React)
 
 I really like the design practices of Steve Schoger (Refactoring UI) and have been keen to try out Tailwind CSS (created by Adam Wathan) for some time. The pair collaborated and created https://tailwindui.com, so recently I purchased a license to use their work.
@@ -19,7 +21,7 @@ The user base of the [current version](https://www.overwolf.com/app/Mike_Hollowa
 
 ### Stock-Bot
 
-I use [Trading 212](https://www.trading212.com/invite/GIlTriRm) to try and grow my wealth, and I prefer to buy stocks that have dividend payments so there are monthly returns.  I like to understand visually what those returns are, but unfortunately Trading 212 doesn't provide an API. 
+I use [Trading 212](https://www.trading212.com/invite/GIlTriRm) to try and grow my wealth, and I prefer to buy stocks that have dividend payments so there are monthly returns. I like to understand visually what those returns are, but unfortunately Trading 212 doesn't provide an API.
 
 So I wrote [stock-bot](https://github.com/artdevgame/stock-bot) that connects to your account using [Puppeteer](https://developers.google.com/web/tools/puppeteer) and automates the retrieval of your dividend payments. Once it has those, it processes the data and displays a monthly chart using [Recharts](https://recharts.org).
 

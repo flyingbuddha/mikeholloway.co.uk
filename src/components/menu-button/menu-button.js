@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types'
-import classNames from 'classnames'
+import React, { useState } from "react"
+import PropTypes from "prop-types"
+import classNames from "classnames"
 
-import HamburgerIcon from './hamburger.svg'
-import DownArrowIcon from './down-arrow.svg'
+import HamburgerIcon from "./hamburger.svg"
+import DownArrowIcon from "./down-arrow.svg"
 
-import './menu-button.less'
+import "./menu-button.less"
 
 const MenuButton = ({ isMenuOpen, onClick }) => {
   const [justPressed, setJustPressed] = useState(false)
@@ -14,19 +14,25 @@ const MenuButton = ({ isMenuOpen, onClick }) => {
     window.scrollTo(0, 0)
   }
   return (
-    <button 
-      className={classNames('MenuButton', {'MenuButton-Pressed': justPressed})}
+    <button
+      className={classNames("MenuButton", {
+        "MenuButton-Pressed": justPressed,
+      })}
       onAnimationEnd={() => onPress(false)}
-      onClick={() => { onPress(true); onClick() }}
+      onClick={() => {
+        onPress(true)
+        onClick()
+      }}
+      aria-label="open main navigation"
     >
-      <img src={isMenuOpen ? DownArrowIcon : HamburgerIcon} alt='' />
+      <img src={isMenuOpen ? DownArrowIcon : HamburgerIcon} alt="" />
     </button>
   )
 }
 
 MenuButton.propTypes = {
   isMenuOpen: PropTypes.bool.isRequired,
-  onClick: PropTypes.func.isRequired
+  onClick: PropTypes.func.isRequired,
 }
 
 export default MenuButton
